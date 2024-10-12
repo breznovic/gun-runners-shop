@@ -1,0 +1,51 @@
+.card {
+  background-color: #999999;
+  color: #2f4f4f;
+  padding: 10px;
+  margin: 100px 0px 50px 0px;
+  border-radius: 5px;
+  min-height: 450px;
+  min-width: 550px;
+  max-width: max-content;
+  display: flex;
+  flex-direction: column;
+  gap: 50px;
+}
+
+.header {
+  background-color: #888888;
+  color: #ffffff;
+  padding: 5px;
+}
+
+.title {
+  margin: 0;
+}
+
+.subtitle {
+  margin: 0;
+}
+
+.content {
+  padding: 10px;
+}
+
+@media screen and (max-width: 1280px) {
+  .card {
+    min-height: 400px;
+    margin: 50px 0px 10px 0px;
+  }
+}
+
+@media screen and (max-width: 1024px) {
+  .card {
+    min-height: 450px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .card {
+    min-height: 350px;
+    min-width: 400px;
+  }
+}
