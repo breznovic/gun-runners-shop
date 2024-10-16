@@ -1,0 +1,32 @@
+.container {
+  font-size: 28px;
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 10px;
+  margin: 10px 0px 0px 20px;
+}
+
+.button {
+  cursor: pointer;
+  margin: 3px 0px 0px 0px;
+}
+
+.disabled {
+  pointer-events: none;
+  opacity: 0.5;
+}
+
+@media screen and (max-width: 640px) {
+  .container {
+    margin: 10px 0px 0px 40px;
+  }
+
+  .title {
+    display: none;
+  }
+
+  .button {
+    margin: 0px 0px 0px 0px;
+  }
+}

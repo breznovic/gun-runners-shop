@@ -1,9 +1,7 @@
 import type { Metadata } from "next";
-import { VT323 } from "next/font/google";
 import "./globals.css";
 import Header from "./components/Header/Header";
-
-const font = VT323({ subsets: ["latin"], weight: "400" });
+import { font } from "./utils/font";
 
 export const metadata: Metadata = {
   title: "Gun Runners Shop App",

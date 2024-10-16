@@ -1,0 +1,46 @@
+.table {
+  max-width: 100%;
+  border-collapse: collapse;
+  margin: 20px 0px 0px 0px;
+}
+
+.table th {
+  background-color: #f0f0f0;
+  padding: 10px;
+  text-align: left;
+}
+
+.table td {
+  border: 1px solid #dddddd;
+  padding: 10px;
+}
+
+.table tr:nth-child(even) {
+  background-color: #f9f9f9;
+}
+
+.notFound {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 30vh;
+}
+
+.button {
+  border: 1px saddlebrown solid;
+}
+
+@media screen and (max-width: 640px) {
+  .table {
+    width: 90%;
+    margin: 20px 0px 0px 20px;
+  }
+
+  .table th {
+    padding: 5px;
+  }
+
+  .table td {
+    padding: 5px;
+  }
+}

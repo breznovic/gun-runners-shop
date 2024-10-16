@@ -26,3 +26,9 @@
   background-color: var(--primaryBg);
   color: var(--primaryColor);
 }
+
+@media screen and (max-width: 640px) {
+  .nav {
+    font-size: 26px;
+  }
+}
