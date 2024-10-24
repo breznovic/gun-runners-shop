@@ -1,0 +1,14 @@
+.container {
+  height: 120px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 20px;
+  background-color: #999999;
+  color: #2f4f4f;
+}
+
+.img {
+  user-select: none;
+  -webkit-user-drag: none;
+}

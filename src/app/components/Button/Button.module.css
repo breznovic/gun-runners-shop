@@ -1,0 +1,37 @@
+.button {
+  font-size: 25px;
+  padding: 8px 16px;
+  border: none;
+  border-radius: 4px;
+  color: #333333;
+  background-color: #e9e1e1;
+  cursor: pointer;
+  outline: none;
+  transition: background-color 0.3s;
+  text-wrap: nowrap;
+  margin: 1px;
+
+  &:hover {
+    background-color: #b0b0b0;
+  }
+
+  &:focus {
+    box-shadow: 1 0 0 2px rgba(0, 0, 0, 0.5);
+  }
+
+  &:active {
+    box-shadow: none;
+    transform: translateY(1px);
+  }
+
+  &:disabled {
+    opacity: 0.5;
+    cursor: not-allowed;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .button {
+    font-size: 20px;
+  }
+}

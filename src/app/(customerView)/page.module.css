@@ -1,0 +1,52 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: space-between;
+  gap: 13px;
+  margin: 0px 0px 5px 0px;
+}
+
+.header {
+  margin: 20px 0px 0px 0px;
+  font-size: 45px;
+}
+
+.weapons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: center;
+  align-items: center;
+}
+
+.weapons > * {
+  width: 28%;
+}
+
+@media screen and (max-width: 1280px) {
+  .weapons > * {
+    width: 40%;
+  }
+}
+
+@media screen and (max-width: 768px) {
+  .container {
+    gap: 0px;
+  }
+  .weapons > * {
+    width: 45%;
+  }
+  .header {
+    font-size: 35px;
+  }
+}
+
+@media screen and (max-width: 640px) {
+  .weapons > * {
+    width: 60%;
+  }
+
+  .header {
+    margin: 40px 0px 16px 20px;
+  }
+}

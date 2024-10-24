@@ -1,0 +1,34 @@
+.nav {
+  display: flex;
+  justify-content: center;
+  padding: 0px 16px;
+  background-color: #e0e0e0;
+  color: #696969;
+}
+
+.link {
+  padding: 16px;
+  text-decoration: none;
+  color: inherit;
+}
+
+.link:hover {
+  background-color: var(--secondaryBg);
+  color: var(--secondaryColor);
+}
+
+.link:focus-visible {
+  background-color: var(--secondaryBg);
+  color: var(--secondaryColor);
+}
+
+.linkActive {
+  background-color: var(--primaryBg);
+  color: var(--primaryColor);
+}
+
+@media screen and (max-width: 640px) {
+  .nav {
+    font-size: 26px;
+  }
+}
